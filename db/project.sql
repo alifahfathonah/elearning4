@@ -92,7 +92,7 @@ CREATE TABLE `expertsugg` (
 --
 
 INSERT INTO `expertsugg` (`ExpertID`, `Name`, `Email_id`, `Subject`, `Description`) VALUES
-(1, 'Parth Varde', 'parthvarde50@gmail.com', 'About Chapter', 'Insert new chapter in CSS course');
+(1, 'rcorales', 'rcorales50@gmail.com', 'About Chapter', 'Insert new chapter in CSS course');
 
 -- --------------------------------------------------------
 
@@ -116,7 +116,7 @@ CREATE TABLE `expert_info` (
 --
 
 INSERT INTO `expert_info` (`Expert_id`, `FirstName`, `MiddleName`, `LastName`, `Email_id`, `Gender`, `UserName`, `Password`) VALUES
-(1, 'Parth', 'Rakesh', 'Varde', 'parthvarde50@gmail.com', 'male', 'parth', 'asdf');
+(1, 'Parth', 'Rakesh', 'Varde', 'rcorales50@gmail.com', 'male', 'parth', 'asdf');
 
 -- --------------------------------------------------------
 
@@ -135,7 +135,7 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`Description`, `name`, `email`) VALUES
-('Hello', 'Parth Varde', 'parthvarde50@gmail.com');
+('Hello', 'rcorales', 'rcorales50@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -160,7 +160,7 @@ CREATE TABLE `purchase` (
 --
 
 INSERT INTO `purchase` (`Book`, `OrderNo`, `Full`, `Addr`, `City`, `PinCode`, `State`, `Email`, `Mobile`) VALUES
-('HTML Complete Reference', 4, 'Parth Varde', 'dshjgjhdsjg					', 'Ahmedabad', 380051, 'Gujarat', 'parthvarde50@gmail.com', '8488061712');
+('HTML Complete Reference', 4, 'rcorales', 'dshjgjhdsjg					', 'Ahmedabad', 380051, 'Gujarat', 'rcorales50@gmail.com', '8488061712');
 
 -- --------------------------------------------------------
 
@@ -227,7 +227,7 @@ CREATE TABLE `user_info` (
 --
 
 INSERT INTO `user_info` (`User_id`, `FirstName`, `LastName`, `Gender`, `Email_id`, `UserName`, `Password`) VALUES
-(13, 'Parth', 'Varde', 'male', 'parthvarde50@gmail.com', 'parth', 'asdf'),
+(13, 'Parth', 'Varde', 'male', 'rcorales50@gmail.com', 'parth', 'asdf'),
 (14, 'Dhaval ', 'Dave', 'male', 'dhavaldave055@gmail.com', 'dhaval', 'asdf');
 
 --
