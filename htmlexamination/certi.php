@@ -23,7 +23,7 @@
 </head>
 
 <?php
-$strconn=mysqli_connect("lnhs.ckxe4bnl27bw.us-east-2.rds.amazonaws.com","root","","project");
+$strconn=mysqli_connect("localhost","root","","project");
 		if(!$strconn)
 			echo "Connection failed".mysqli_connect_error();
 		  
